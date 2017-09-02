@@ -1,44 +1,50 @@
 
 //List of Objects
 
-var playground = {
-	"Word" : "playground",
-	"Hint" : "Where you used to want to be in all the time",
+var beheading = {
+	"Word" : "beheading",
+	"Hint" : "Roll and Roll and Roll",
 	"Category" : "Places"
 }
 
-var box = {
-	"Word" : "box",
-	"Hint" : "Think out of it is usually suggested",
+var shooting = {
+	"Word" : "shooting",
+	"Hint" : "Bang",
 	"Category" : "Things"
 }
 
-var basketball = {
-	"Word" : "basketball",
-	"Hint" : "You gotta jump high",
+var boiling = {
+	"Word" : "boiling",
+	"Hint" : "It makes me hungry",
 	"Sport" : "Sport"
 }
 
-var bootcamp = {
-	"Word" : "bootcamp",
-	"Hint" : "Where are you?",
+var impalement = {
+	"Word" : "impalement",
+	"Hint" : "it comes from the back and goes out the front",
 	"Category" : "Places"
 }
 
-var mouse = {
-	"Word" : "mouse",
-	"Hint" : "He loves to be touched and he loves cheese",
+var burning = {
+	"Word" : "burning",
+	"Hint" : "That Witch though",
 	"Category" : "Animals, Technology"
 }
 
-var coding = {
-	"Word" : "coding",
-	"Hint" : "It can be frustrating and fun",
+var crucifixion = {
+	"Word" : "crucifixion",
+	"Hint" : "Jesus",
 	"Category" : "Activity"
 }
 
-var triangle = {
-	"Word" : "triangle",
-	"Hint" : "Three is all you need to know",
+var skinning = {
+	"Word" : "skinning",
+	"Hint" : "Poor guy! such a fair skin",
 	"Category" : "Shape"
+}
+
+var stoning = {
+	"Word" : "stoning",
+	"Hint" : "Throwing contest",
+	"Category" : "Death"
 }
