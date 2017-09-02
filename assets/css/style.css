@@ -11,27 +11,41 @@ body {
 .col-md-5 {
     border: 1px solid white;
     text-align: center;
+
 }
 
-.col-md-6 {
-    /*text-align: center;
-	line-height: 150px;*/
+.col-md-5 h3 {
+	font-family: 'Baloo Tammudu', cursive;
+}
+
+.col-md-8 {
+    
     border: 1px dashed white;
+    background-image: url(../images/executioner04.jpg);
+    
+}
+
+header {
+	margin-bottom: 30px;
 }
 
 .title {
-    font-size: 50px;
-    height: 150px;
-    color: red;
+	font-family: 'Kaushan Script', cursive;
+    font-size: 65px;
+    height: 200px;
+    color: black;
     font-weight: bolder;
-    text-align: center;
-    line-height: 150px;
+    text-align: left;
+  -webkit-transform: rotate(-10deg);
 }
 
-h2 {
+#wordHolder {
     color: white;
     letter-spacing: 10px;
 }
 
 h4 {
 	color: white;
+	font-family: 'Baloo Tammudu', cursive;
+};
+

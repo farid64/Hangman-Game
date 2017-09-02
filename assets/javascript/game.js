@@ -12,7 +12,7 @@
 //Global Variables
 var Wins = 0;
 var Loses = 0;
-var theWords = [playground , box , basketball , bootcamp , mouse , coding , triangle];
+var theWords = [beheading , boiling , shooting , impalement , burning , crucifixion , skinning, stoning];
 //"playground" , "box" , "basketball" , "bootcamp" , "coding" , "triangle" , "linkinpark"
 
 
