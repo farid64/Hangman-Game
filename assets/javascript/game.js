@@ -6,13 +6,10 @@
 	//hintHolder
 
 
-
-
-
 //Global Variables
 var Wins = 0;
 var Loses = 0;
-var theWords = [beheading , boiling , shooting , impalement , burning , crucifixion , skinning, stoning];
+var theWords = [beheading , boiling , shooting , impalement , burning , crucifixion , skinning, stoning , sculpting , poison , guillotine , cementShoes];
 //"playground" , "box" , "basketball" , "bootcamp" , "coding" , "triangle" , "linkinpark"
 
 
@@ -56,7 +53,7 @@ myGame.starter = function(){
 
 	this.theWord = this.Words[randomIndex];
 	this.Words.splice(randomIndex, 1); //removing the chosen word from the list to avoid repeatition
-	this.moves = Math.round(this.theWord.Word.length*1.5); //set the moves to 1.5 times of the length of the word
+	this.moves = Math.round(this.theWord.Word.length); //set the moves to 1.5 times of the length of the word
 	this.spaceHolder = ""; //set the place holder for the word to empty
 	this.wrongGuesses = []; //reset the wrong guesses to empty
 	$("#wrongGuessesHolder").text("[]");
@@ -67,8 +64,15 @@ myGame.starter = function(){
 	console.log(this.moves);
 
 	for (var i=0;i<this.theWord.Word.length;i++){ //using loop to fill the place holder with the same number of letters as the Word
-		this.spaceHolder += "_";
-	}
+		
+		if(this.theWord.Word[i] != ' '){ //this conditional is for placing space between words in the place holder
+			this.spaceHolder += "_";
+		}else{
+			this.spaceHolder += ' ';
+		};
+
+
+	};
 
 	$("#wordHolder").text(this.spaceHolder); 
 
@@ -154,7 +158,7 @@ myGame.gameStatus = function(){
 		console.log("The Game Is Over Win");
 		console.log(this.theWord.Word);
 		Wins ++;
-		console.log("Wins are" + " :: " + Wins + " & " + "Loses are" + " :: " + Loses);
+		$("#winsHolder").text(Wins);
 		this.starter();
 		return;
 	}
@@ -169,7 +173,7 @@ myGame.gameStatus = function(){
 		console.log("The Game Is Over Lose");
 		console.log(this.theWord.Word);
 		Loses ++;
-		console.log("Wins are" + " :: " + Wins + " & " + "Loses are" + " :: " + Loses);
+		$("#losesHolder").text(Loses);
 		this.starter();
 		return;
 	}

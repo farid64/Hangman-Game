@@ -46,5 +46,29 @@ var skinning = {
 var stoning = {
 	"Word" : "stoning",
 	"Hint" : "Throwing contest",
-	"Category" : "Death"
+	"Category" : "Death Method"
+}
+
+var sculpting = {
+	"Word" : "sculpting",
+	"Hint" : "That head looks so different",
+	"Category" : "Death Method"
+}
+
+var poison = {
+	"Word" : "poison",
+	"Hint" : "That's one drink I don't want to try!",
+	"Category" : "Death Method"
+}
+
+var guillotine = {
+	"Word" : "guillotine",
+	"Hint" : "It will be quick. I promise!",
+	"Category" : "Death Method"
+}
+
+var cementShoes = {
+	"Word" : "cement shoes",
+	"Hint" : "Those Mafia folks knew what they were doing.",
+	"Category" : "Death Method"
 }

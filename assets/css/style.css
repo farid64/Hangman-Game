@@ -3,11 +3,6 @@ body {
     background-color: black;
 }
 
-.col-md-4 {
-    border: 1px solid white;
-    text-align: center;
-}
-
 .col-md-5 {
     border: 1px solid white;
     text-align: center;
